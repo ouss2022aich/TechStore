@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule  ^home$ index.php
+RewriteRule  ^products$ index.php?do=products
+RewriteRule  ^discount$ index.php?do=products&discount
+RewriteRule  ^about$ index.php?do=about
